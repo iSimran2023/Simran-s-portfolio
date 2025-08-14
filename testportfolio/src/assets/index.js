@@ -22,6 +22,9 @@ import instagram from './tech/instagram.png';
 
 import debug from './company/debug.png';
 
+import JS from './certification/JS.png';
+import React from './certification/React.png';
+
 export {
   logo,
   close,
@@ -44,4 +47,6 @@ export {
   linkedin,
   materialui,
   debug,
+  JS,
+  React,
 };

@@ -16,6 +16,8 @@ import {
   linkedin,
   instagram,
   debug,
+  JS,
+  React,
 } from "../assets";
 
 export const navLinks = [
@@ -26,6 +28,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "certification",
+    title: "Certification",
   },
   {
     id: "contact",
@@ -85,6 +91,17 @@ const technologies = [
     name: "git",
     icon: git,
   },
+];
+
+const certification = [
+  {
+    title: 'JavaScript',
+    image: JS,
+  },
+  {
+    title: 'React.js',
+    image: React,
+  }
 ];
 
 const experiences = [
@@ -188,4 +205,4 @@ const projects = [
   // },
 ];
 
-export { services, technologies, socials, experiences, projects };
+export { services, technologies, certification, socials, experiences, projects };
